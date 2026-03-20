@@ -1,105 +1,195 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cafe Antigravity | 穏やかなひとときを</title>
-    <meta name="description" content="心地よい空間とこだわりのコーヒー。Cafe Antigravityで特別な時間をお過ごしください。">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KAZE — 風が通るカフェ</title>
+  <meta name="description" content="穏やかな時間が流れる場所。厳選された素材と丁寧な手仕事で、日常に小さな贅沢を。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Noto+Sans+JP:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav class="container">
-            <h1 class="logo">Cafe Antigravity</h1>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#cta">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <section id="hero" class="hero">
-            <div class="hero-content">
-                <h2>穏やかな時間が流れる、<br>街角の隠れ家。</h2>
-                <p>厳選された豆と、手作りのスイーツをご用意しております。</p>
-                <a href="#menu" class="btn">View Menu</a>
-            </div>
-            <div class="hero-image">
-                <img src="assets/images/hero.jpg" alt="Cafe Interior">
-            </div>
-        </section>
+  <!-- ==================== HERO ==================== -->
+  <header id="hero" class="hero">
+    <div class="hero__bg"></div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <p class="hero__label">Est. 2024</p>
+      <h1 class="hero__title">KAZE</h1>
+      <p class="hero__subtitle">風が通るカフェ</p>
+      <p class="hero__tagline">一杯のコーヒーが、<br>日常をそっと変える。</p>
+      <a href="#contact" class="hero__cta">ご予約・お問い合わせ</a>
+    </div>
+    <div class="hero__scroll">
+      <span class="hero__scroll-text">Scroll</span>
+      <span class="hero__scroll-line"></span>
+    </div>
+  </header>
 
-        <section id="about" class="about container">
-            <div class="about-grid">
-                <div class="about-image">
-                    <img src="assets/images/about.jpg" alt="Our History">
-                </div>
-                <div class="about-text">
-                    <span class="sub-title">CONCEPT</span>
-                    <h2>私たちの想い</h2>
-                    <p>Cafe Antigravityは、忙しい日常から少しだけ離れて、自分を取り戻せる場所。一杯一杯丁寧に淹れるコーヒーと、季節の素材を活かしたお料理で、皆様をお迎えします。</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="menu" class="menu container">
-            <span class="sub-title center">MENU</span>
-            <h2 class="center">おすすめメニュー</h2>
-            <div class="menu-grid">
-                <div class="menu-item">
-                    <img src="assets/images/menu-01.jpg" alt="Special Blend">
-                    <h3>スペシャルブレンド</h3>
-                    <p>深煎りのコクと、爽やかな後味が特徴のオリジナルブレンド。</p>
-                    <span class="price">¥550</span>
-                </div>
-                <div class="menu-item">
-                    <img src="assets/images/menu-02.jpg" alt="Homemade Cake">
-                    <h3>季節のケーキ</h3>
-                    <p>パティシエ特製。旬のフルーツをふんだんに使ったタルトです。</p>
-                    <span class="price">¥680</span>
-                </div>
-                <div class="menu-item">
-                    <img src="assets/images/menu-01.jpg" alt="Lunch Plate">
-                    <h3>デリランチプレート</h3>
-                    <p>野菜たっぷりのヘルシーな日替わりランチ。平日限定。</p>
-                    <span class="price">¥1,200</span>
-                </div>
-            </div>
-        </section>
-
-        <section id="gallery" class="gallery">
-            <div class="container">
-                <span class="sub-title center">GALLERY</span>
-                <h2 class="center">店内の雰囲気</h2>
-                <div class="gallery-grid">
-                    <div class="gallery-item"><img src="assets/images/interior.jpg" alt="Gallery 1"></div>
-                    <div class="gallery-item"><img src="assets/images/interior.jpg" alt="Gallery 2"></div>
-                    <div class="gallery-item"><img src="assets/images/interior.jpg" alt="Gallery 3"></div>
-                    <div class="gallery-item"><img src="assets/images/interior.jpg" alt="Gallery 4"></div>
-                </div>
-            </div>
-        </section>
-
-        <section id="cta" class="cta">
-            <div class="container center">
-                <h2>皆様のご来店をお待ちしております</h2>
-                <p>ご予約やお問合せはお気軽にお電話ください。</p>
-                <div class="contact-info">
-                    <p class="tel">TEL: 03-XXXX-XXXX</p>
-                    <p class="hours">営業時間: 10:00 - 19:00 (L.O 18:30)<br>定休日: 火曜日</p>
-                </div>
-                <a href="#" class="btn btn-dark">Access Map</a>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container center">
-            <p>&copy; 2026 Cafe Antigravity. All rights reserved.</p>
+  <!-- ==================== ABOUT ==================== -->
+  <section id="about" class="about">
+    <div class="about__header fade-up">
+      <span class="section-label">About</span>
+      <h2 class="section-title">私たちのこと</h2>
+    </div>
+    <div class="about__grid">
+      <div class="about__images">
+        <div class="about__image-wrapper about__image-wrapper--main fade-up">
+          <img src="assets/images/about-interior.png" alt="KAZEの店内" class="about__image" loading="lazy">
         </div>
-    </footer>
+        <div class="about__image-wrapper about__image-wrapper--sub fade-up" style="transition-delay: 0.15s">
+          <img src="assets/images/about-barista.png" alt="バリスタの手仕事" class="about__image" loading="lazy">
+        </div>
+      </div>
+      <div class="about__text">
+        <h3 class="about__heading fade-up">素材と空間、<br>そのすべてに想いを。</h3>
+        <p class="about__description fade-up" style="transition-delay: 0.1s">
+          KAZEは「日常の余白」をコンセプトに生まれたカフェです。
+          窓から差し込む自然光、木の温もり、丁寧に焙煎されたコーヒーの香り。
+          忙しい毎日の中で、ふと立ち止まれる場所でありたいと考えています。
+        </p>
+        <p class="about__description fade-up" style="transition-delay: 0.2s">
+          厳選した豆を自家焙煎し、一杯ずつ心を込めてお届けします。
+          季節のスイーツや食事メニューも、素材の味を大切にした手仕事です。
+        </p>
+        <div class="about__signature fade-up" style="transition-delay: 0.3s">
+          <span class="about__signature-line"></span>
+          <span class="about__signature-text">Since 2024, Tokyo</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== MENU ==================== -->
+  <section id="menu" class="menu">
+    <div class="menu__header fade-up">
+      <span class="section-label">Menu</span>
+      <h2 class="section-title">おすすめメニュー</h2>
+      <p class="section-subtitle">素材にこだわり、一つひとつ丁寧に仕上げました。</p>
+    </div>
+    <div class="menu__grid">
+      <article class="menu-card fade-up">
+        <div class="menu-card__image-wrapper">
+          <img src="assets/images/menu-coffee.png" alt="スペシャルティラテ" class="menu-card__image" loading="lazy">
+        </div>
+        <div class="menu-card__body">
+          <span class="menu-card__category">Coffee</span>
+          <h3 class="menu-card__name">スペシャルティラテ</h3>
+          <p class="menu-card__description">自家焙煎の深煎りブレンドに、滑らかなスチームミルクを合わせた一杯。ラテアートとともにお届けします。</p>
+          <span class="menu-card__price">¥680</span>
+        </div>
+      </article>
+      <article class="menu-card fade-up" style="transition-delay: 0.15s">
+        <div class="menu-card__image-wrapper">
+          <img src="assets/images/menu-cake.png" alt="季節のケーキ" class="menu-card__image" loading="lazy">
+        </div>
+        <div class="menu-card__body">
+          <span class="menu-card__category">Sweets</span>
+          <h3 class="menu-card__name">季節のケーキ</h3>
+          <p class="menu-card__description">旬のフルーツとナッツを使い、パティシエが毎朝手作りする限定ケーキ。素材の味わいをそのままに。</p>
+          <span class="menu-card__price">¥780</span>
+        </div>
+      </article>
+      <article class="menu-card fade-up" style="transition-delay: 0.3s">
+        <div class="menu-card__image-wrapper">
+          <img src="assets/images/menu-food.png" alt="本日のカフェプレート" class="menu-card__image" loading="lazy">
+        </div>
+        <div class="menu-card__body">
+          <span class="menu-card__category">Food</span>
+          <h3 class="menu-card__name">本日のカフェプレート</h3>
+          <p class="menu-card__description">契約農家から届く新鮮な野菜と、自家製パンを添えたワンプレートランチ。日替わりでご用意しています。</p>
+          <span class="menu-card__price">¥1,280</span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ==================== GALLERY ==================== -->
+  <section id="gallery" class="gallery">
+    <div class="gallery__header fade-up">
+      <span class="section-label">Gallery</span>
+      <h2 class="section-title">空間を感じる</h2>
+    </div>
+    <div class="gallery__grid">
+      <figure class="gallery__item gallery__item--tall fade-up">
+        <img src="assets/images/gallery-1.jpg" alt="窓辺の風景" class="gallery__image" loading="lazy">
+        <figcaption class="gallery__caption">Morning Light</figcaption>
+      </figure>
+      <figure class="gallery__item fade-up" style="transition-delay: 0.1s">
+        <img src="assets/images/gallery-2.jpg" alt="コーヒー豆" class="gallery__image" loading="lazy">
+        <figcaption class="gallery__caption">Selected Beans</figcaption>
+      </figure>
+      <figure class="gallery__item fade-up" style="transition-delay: 0.2s">
+        <img src="assets/images/gallery-3.jpg" alt="テラス席" class="gallery__image" loading="lazy">
+        <figcaption class="gallery__caption">Terrace</figcaption>
+      </figure>
+      <figure class="gallery__item gallery__item--wide fade-up" style="transition-delay: 0.3s">
+        <img src="assets/images/gallery-4.jpg" alt="花とコーヒー" class="gallery__image" loading="lazy">
+        <figcaption class="gallery__caption">Details</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ==================== CTA ==================== -->
+  <section id="contact" class="cta">
+    <div class="cta__overlay"></div>
+    <div class="cta__content fade-up">
+      <span class="section-label section-label--light">Contact</span>
+      <h2 class="cta__title">お気軽にお問い合わせください</h2>
+      <p class="cta__text">
+        ご予約・貸切・メニューに関するご質問など、<br>
+        どうぞお気軽にご連絡ください。
+      </p>
+      <div class="cta__info">
+        <div class="cta__info-item">
+          <span class="cta__info-label">Address</span>
+          <span class="cta__info-value">東京都渋谷区神宮前 3-12-8</span>
+        </div>
+        <div class="cta__info-item">
+          <span class="cta__info-label">Hours</span>
+          <span class="cta__info-value">10:00 – 20:00（火曜定休）</span>
+        </div>
+        <div class="cta__info-item">
+          <span class="cta__info-label">Tel</span>
+          <span class="cta__info-value">03-1234-5678</span>
+        </div>
+      </div>
+      <a href="mailto:hello@kaze-cafe.jp" class="cta__button">メールで問い合わせる</a>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <p class="footer__logo">KAZE</p>
+      <p class="footer__copy">&copy; 2024 KAZE Cafe. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Hero zoom on load
+    window.addEventListener('load', () => {
+      document.querySelector('.hero').classList.add('is-loaded');
+    });
+
+    // Fade-up on scroll
+    const fadeElements = document.querySelectorAll('.fade-up');
+
+    const onScroll = () => {
+      fadeElements.forEach(el => {
+        const rect = el.getBoundingClientRect().top;
+        if (rect < window.innerHeight * 0.85) {
+          el.classList.add('active');
+        }
+      });
+    };
+
+    window.addEventListener('scroll', onScroll);
+    window.addEventListener('load', onScroll);
+  </script>
+
 </body>
 </html>
